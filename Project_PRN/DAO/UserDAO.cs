@@ -24,7 +24,7 @@ namespace Project_PRN
                 conn.Close();
                 foreach (DataRow row in dt.Rows)
                 {
-                    list.Add(new Users(row["userId"].ToString(), row["password"].ToString(), row["fullName"].ToString(), row["address"].ToString(), row["phone"].ToString(), new Roles(row["roleName"].ToString())));
+                    list.Add(new Users(row["userId"].ToString(), row["password"].ToString(), row["fullName"].ToString(), row["address"].ToString(), row["phone"].ToString(), new Roles(row["roleName"].ToString()), row["status"].ToString()));
                 }
                 return list;
             }
@@ -47,7 +47,7 @@ namespace Project_PRN
                 conn.Close();
                 foreach (DataRow row in dt.Rows)
                 {
-                    list.Add(new Users(row["userId"].ToString(), row["password"].ToString(), row["fullName"].ToString(), row["address"].ToString(), row["phone"].ToString(), new Roles(row["roleName"].ToString())));
+                    list.Add(new Users(row["userId"].ToString(), row["password"].ToString(), row["fullName"].ToString(), row["address"].ToString(), row["phone"].ToString(), new Roles(row["roleName"].ToString()), row["status"].ToString()));
                 }
                 return list;
             }
@@ -77,7 +77,8 @@ namespace Project_PRN
                     string address = dr["address"].ToString();
                     string phone = dr["phone"].ToString();
                     Roles roleId = new Roles(int.Parse(dr["roleId"].ToString()));
-                    user = new Users(userId, passwordd, fullName, address, phone, roleId);
+                    string status = dr["status"].ToString();
+                    user = new Users(userId, passwordd, fullName, address, phone, roleId, status);
                 }
                 return user;
             }
@@ -92,7 +93,7 @@ namespace Project_PRN
             try
             {
                 SqlConnection conn = Connection.ConnectDB.connectDB();
-                string statement = "insert into Users values('" + user.UserID + "','" + user.Password + "','" + user.Fullname + "','" + user.Address + "','" + user.Phone + "'," + user.Role.RoleId + ")";
+                string statement = "insert into Users values('" + user.UserID + "','" + user.Password + "','" + user.Fullname + "','" + user.Address + "','" + user.Phone + "'," + user.Role.RoleId + ",'" + user.Status + "')";
                 SqlCommand cmd = new SqlCommand(statement, conn);
                 cmd.ExecuteNonQuery();
                 conn.Close();
@@ -104,6 +105,39 @@ namespace Project_PRN
             return false;
         }
 
+        public static bool setEnabled()
+        {
+            try
+            {
+                SqlConnection conn = Connection.ConnectDB.connectDB();
+                string statement = "update Users set status = 'enabled' where status = 'disabled'";
+                SqlCommand cmd = new SqlCommand(statement, conn);
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                return true;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public static bool setDisabled()
+        {
+            try
+            {
+                SqlConnection conn = Connection.ConnectDB.connectDB();
+                string statement = "update Users set status = 'disabled' where status = 'enabled'";
+                SqlCommand cmd = new SqlCommand(statement, conn);
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                return true;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
 
     }
 }
