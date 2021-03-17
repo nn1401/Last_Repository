@@ -33,3 +33,19 @@ C:\Users\DUCKLING\Desktop\Last_Repository\Project_PRN\obj\Debug\Project_PRN.cspr
 C:\Users\DUCKLING\Desktop\Last_Repository\Project_PRN\obj\Debug\Project_PRN.csproj.CopyComplete
 C:\Users\DUCKLING\Desktop\Last_Repository\Project_PRN\obj\Debug\Project_PRN.exe
 C:\Users\DUCKLING\Desktop\Last_Repository\Project_PRN\obj\Debug\Project_PRN.pdb
+C:\Users\Viet Long\Desktop\C#\Last_Repository\Project_PRN\bin\Debug\Project_PRN.exe.config
+C:\Users\Viet Long\Desktop\C#\Last_Repository\Project_PRN\bin\Debug\Project_PRN.exe
+C:\Users\Viet Long\Desktop\C#\Last_Repository\Project_PRN\bin\Debug\Project_PRN.pdb
+C:\Users\Viet Long\Desktop\C#\Last_Repository\Project_PRN\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Viet Long\Desktop\C#\Last_Repository\Project_PRN\bin\Debug\Dapper.dll
+C:\Users\Viet Long\Desktop\C#\Last_Repository\Project_PRN\bin\Debug\MaterialSkin.dll
+C:\Users\Viet Long\Desktop\C#\Last_Repository\Project_PRN\bin\Debug\Dapper.xml
+C:\Users\Viet Long\Desktop\C#\Last_Repository\Project_PRN\obj\Debug\Project_PRN.csprojAssemblyReference.cache
+C:\Users\Viet Long\Desktop\C#\Last_Repository\Project_PRN\obj\Debug\Project_PRN.FormView.LoginForm.resources
+C:\Users\Viet Long\Desktop\C#\Last_Repository\Project_PRN\obj\Debug\Project_PRN.Properties.Resources.resources
+C:\Users\Viet Long\Desktop\C#\Last_Repository\Project_PRN\obj\Debug\Project_PRN.csproj.GenerateResource.cache
+C:\Users\Viet Long\Desktop\C#\Last_Repository\Project_PRN\obj\Debug\Project_PRN.csproj.CoreCompileInputs.cache
+C:\Users\Viet Long\Desktop\C#\Last_Repository\Project_PRN\obj\Debug\Project_PRN.csproj.CopyComplete
+C:\Users\Viet Long\Desktop\C#\Last_Repository\Project_PRN\obj\Debug\Project_PRN.exe
+C:\Users\Viet Long\Desktop\C#\Last_Repository\Project_PRN\obj\Debug\Project_PRN.pdb
+C:\Users\Viet Long\Desktop\C#\Last_Repository\Project_PRN\obj\Debug\Project_PRN.FormView.RegisterForm.resources

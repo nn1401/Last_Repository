@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project_PRN.FormView;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,7 +14,7 @@ namespace Project_PRN {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.Run(new LoginForm());
         }
     }
 }
