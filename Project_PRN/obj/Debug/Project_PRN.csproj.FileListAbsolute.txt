@@ -20,3 +20,16 @@ C:\Users\TBLONG\Desktop\Project_PRN292\Project_PRN\obj\Debug\Project_PRN.pdb
 C:\Users\TBLONG\Desktop\Project_PRN292\Project_PRN\obj\Debug\Project_PRN.Admin_OrderForm.resources
 C:\Users\TBLONG\Desktop\Project_PRN292\Project_PRN\obj\Debug\Project_PRN.ProfileForm.resources
 C:\Users\TBLONG\Desktop\Project_PRN292\Project_PRN\obj\Debug\Project_PRN.User_MyOrderForm.resources
+C:\Users\DUCKLING\Desktop\Last_Repository\Project_PRN\bin\Debug\Project_PRN.exe.config
+C:\Users\DUCKLING\Desktop\Last_Repository\Project_PRN\bin\Debug\Project_PRN.exe
+C:\Users\DUCKLING\Desktop\Last_Repository\Project_PRN\bin\Debug\Project_PRN.pdb
+C:\Users\DUCKLING\Desktop\Last_Repository\Project_PRN\bin\Debug\Dapper.dll
+C:\Users\DUCKLING\Desktop\Last_Repository\Project_PRN\bin\Debug\MaterialSkin.dll
+C:\Users\DUCKLING\Desktop\Last_Repository\Project_PRN\bin\Debug\Dapper.xml
+C:\Users\DUCKLING\Desktop\Last_Repository\Project_PRN\obj\Debug\Project_PRN.csprojAssemblyReference.cache
+C:\Users\DUCKLING\Desktop\Last_Repository\Project_PRN\obj\Debug\Project_PRN.Properties.Resources.resources
+C:\Users\DUCKLING\Desktop\Last_Repository\Project_PRN\obj\Debug\Project_PRN.csproj.GenerateResource.cache
+C:\Users\DUCKLING\Desktop\Last_Repository\Project_PRN\obj\Debug\Project_PRN.csproj.CoreCompileInputs.cache
+C:\Users\DUCKLING\Desktop\Last_Repository\Project_PRN\obj\Debug\Project_PRN.csproj.CopyComplete
+C:\Users\DUCKLING\Desktop\Last_Repository\Project_PRN\obj\Debug\Project_PRN.exe
+C:\Users\DUCKLING\Desktop\Last_Repository\Project_PRN\obj\Debug\Project_PRN.pdb
