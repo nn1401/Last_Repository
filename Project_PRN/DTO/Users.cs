@@ -15,6 +15,7 @@ namespace Project_PRN
         string address;
         string phone;
         Roles role;
+        string status;
 
 
         public string UserID { get => userID; set => userID = value; }
@@ -23,21 +24,23 @@ namespace Project_PRN
         public string Address { get => address; set => address = value; }
         public string Phone { get => phone; set => phone = value; }
         internal Roles Role { get => role; set => role = value; }
+        public string Status { get => status; set => status = value; }
 
         public Users(string userID)
         {
             this.userID = userID;
         }
 
-        public Users(string userID, string password, string fullname, string address, string phone, Roles role)
+        public Users(string userID, string password, string fullname, string address, string phone, Roles role, string status) : this(userID)
         {
-            UserID = userID;
             Password = password;
             Fullname = fullname;
             Address = address;
             Phone = phone;
             Role = role;
+            Status = status;
         }
+
         public Users()
         {
         }
